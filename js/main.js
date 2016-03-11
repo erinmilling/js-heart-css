@@ -1,14 +1,16 @@
 var $header = $('header');
 var $h1 = $('h1');
 var $main = $('main');
+var $h2 = $('h2');
+var $pMain = $('p:first-child');
+var $mainList = $('main ul');
+var $img = $('img');
 
 $header.addClass('masthead');
 $h1.addClass('logo');
 $h1.removeClass('big-heading');
 $main.addClass('wrapper');
-$main: first-child.addClass('intro');
-
-.remove(big-heading);
-
-$('ul :first-child');
-.slug-list-first'
+$pMain.addClass('intro');
+$h2.addClass('slug-head');
+$mainList.addClass('slug-list');
+$img.addClass('slug-img');
