@@ -5,6 +5,8 @@ var $h2 = $('h2');
 var $pMain = $('p:first-child');
 var $mainList = $('main ul');
 var $img = $('img');
+var $firstList = $('ul:first-child');
+var $lastList = $('ul:last-child');
 
 $header.addClass('masthead');
 $h1.addClass('logo');
@@ -14,3 +16,6 @@ $pMain.addClass('intro');
 $h2.addClass('slug-head');
 $mainList.addClass('slug-list');
 $img.addClass('slug-img');
+$firstList.addClass('slug-list-first');
+$lastList.addClass('slug-list-last');
+
