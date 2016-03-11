@@ -7,6 +7,8 @@ var $mainList = $('main ul');
 var $img = $('img');
 var $firstList = $('ul:first-child');
 var $lastList = $('ul:last-child');
+var $dl = $('dl');
+var $dt = $('dt');
 
 $header.addClass('masthead');
 $h1.addClass('logo');
@@ -18,4 +20,5 @@ $mainList.addClass('slug-list');
 $img.addClass('slug-img');
 $firstList.addClass('slug-list-first');
 $lastList.addClass('slug-list-last');
-
+$dl.addClass('classification');
+$dt.removeClass('big-label');
