@@ -22,3 +22,5 @@ $firstList.addClass('slug-list-first');
 $lastList.addClass('slug-list-last');
 $dl.addClass('classification');
 $dt.removeClass('big-label');
+
+$lastList.show();
